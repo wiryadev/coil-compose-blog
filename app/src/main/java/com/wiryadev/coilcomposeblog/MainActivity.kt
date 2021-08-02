@@ -29,7 +29,8 @@ class MainActivity : ComponentActivity() {
                     BasicCoilCompose(
                         imgUrl = "https://www.pdvg.it/wp-content/uploads/2021/07/fifa_22.jpg"
                     )
-//                    ImageList()
+                    // Uncomment below to see the the bug
+                    // ImageList()
                 }
             }
         }
