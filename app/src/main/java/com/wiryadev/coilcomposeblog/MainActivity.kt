@@ -45,12 +45,12 @@ fun ImageList() {
         contentPadding = PaddingValues(vertical = 16.dp, horizontal = 24.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
+        item { CrossFadeCoil(imgUrl) }
         item { BasicCoil(imgUrl) }
         item { FixedSizePixel(imgUrl) }
         item { BasicCoilWithOriginalSize(imgUrl) }
         item { RoundedCornerTransformation(imgUrl) }
         item { RoundedCornerManual(imgUrl) }
-        item { CrossFadeCoil(imgUrl) }
     }
 }
 
